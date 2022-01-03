@@ -1,0 +1,214 @@
+body{
+    margin:0;
+}
+h1{
+    margin:none !important;
+    padding:none !important;
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.sejarah-smk-wikrama{
+    font-family: cursive;
+    color: rgb(245, 203, 126);
+}
+
+ol{ 
+    list-style: none;
+}
+
+.container-index {
+    font-family: cursive;
+    background-color: #1A374D;
+    color: rgb(245, 203, 126);
+    padding:1%;
+}
+
+
+.container-index li:before {
+    content:"- ";
+}
+
+.container-index li {
+    line-height: 1cm;
+}
+
+.container-index p {
+    line-height: 1cm;
+    color:white;
+}
+
+.container-index ol li{
+    color:white;
+}
+
+
+.header{
+    background-image: url("img/gedungwk.jpg");
+    height:700px;
+    padding: none;
+}
+
+.welcome{
+    text-align: center;
+    padding: 25%;
+}
+.welcome>h1{
+    color: rgb(245, 203, 126);
+    font-size: 45px;
+    transition: 0.3s ease-in-out;
+}
+
+.welcome>h1:hover{
+    font-size: 60px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #406882;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0 100px;
+    justify-content: flex-end;
+    list-style: none !important;
+  }
+  nav ul li:before {
+        content:"";
+    }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px; /**  Rarely used! **/
+    transition: 0.3s ease-in-out;
+    font-family: cursive;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: black;
+    
+  } 
+
+  .footer{
+      background-color: #406882;    
+      display: flex;
+      flex-wrap: wrap;
+      padding:2%;
+      font-family: cursive;
+      /* margin:2%; */
+  }
+
+  .tentang-wk {
+    width: 20% !important;
+  }
+
+  .col-3 {
+    width: 25%;
+    
+  }
+
+.col-3 ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+.col-3 a {
+    text-decoration: none;
+    color:black
+    
+}
+
+.col-3 a:hover {
+    color:white
+}
+
+.footer-active {
+    color:white !important;
+    margin-left: -10px;
+    
+}
+
+.copyright {
+    font-family: cursive;
+    font-weight: bold;
+    width: 100%;
+    background-color: #1A374D;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.header-matrik{
+    padding: 4%;
+    font-family: cursive;
+    color: #1A374D;
+}
+
+.banner-matrik {
+    object-fit: cover;
+    width:40%;
+    /* position: relative; */
+}
+
+.container-matrik {
+    font-family: cursive;
+    background-color: #1A374D;
+    color: rgb(245, 203, 126);
+    padding:1%;
+    line-height: 1cm;
+}
+
+.header-fasilitas {
+    font-family: cursive;
+    color: rgb(245, 203, 126);
+    background-color: #1A374D;
+    min-height:50px;
+}
+
+.container-fasilitas {
+    color: rgb(245, 203, 126);
+    background-color: #1A374D;
+    font-family: cursive;
+    padding: 1cm;
+    
+   
+}
+
+.banner-fasilitas {
+    height: 250px;
+}
+
+.header-jurusan {
+    padding: 1cm;
+}
+
+.banner-jurusan {
+    height: 350px;
+}
+
+.container-jurusan {
+    color: rgb(245, 203, 126);
+    background-color: #1A374D;
+    font-family: cursive;
+    padding: 1cm;
+}
+
+ol.d {
+    list-style-type: upper-alpha;
+    line-height: 1cm;
+}
+
+.jurusan-tatbog {
+    line-height: 1cm;
+}
+  
